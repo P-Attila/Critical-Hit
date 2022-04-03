@@ -93,7 +93,11 @@ const Work = () => {
 								Vue JS Application
 							</span>
 							<div className="pt-8 text-center">
-								<a href="/">
+								<a
+									href="https://p-attila.github.io/BuyMoreRecords/"
+									target="_blank"
+									rel="opener noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Demo
 									</button>
@@ -152,7 +156,11 @@ const Work = () => {
 								Vue JS Application
 							</span>
 							<div className="pt-8 text-center">
-								<a href="/">
+								<a
+									href="https://p-attila.github.io/BuyMoreRecords/"
+									target="_blank"
+									rel="opener noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Demo
 									</button>
