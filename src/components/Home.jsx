@@ -3,7 +3,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
 	return (
-		<div name="home" className="w-full h-screen bg-zinc-900">
+		<div name="home" className="w-full flex items-center min-h-screen py-24 bg-zinc-900">
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full fadeIn">
 				<p className="text-yellow-300">Hi, my name is</p>
@@ -19,9 +19,9 @@ const Home = () => {
 					CRITICAL! CRITICAL! CRITICAL! CRITICAL!</p>
 					<p className="text-xl text-center font-bold text-red-400 relative top-12 player2">
 					CRITICAL! CRITICAL!</p>
-					<p className="text-6xl sm:text-8xl text-center font-bold text-red-700 animate-pulse glitch">
+					<p className="text-5xl sm:text-8xl text-center font-bold text-red-700 animate-pulse glitch">
 					CRITICAL! </p>
-					<p className="text-3xl text-center font-bold text-red-400 player2">
+					<p className="text-xl md:text-3xl text-center font-bold text-red-400 player2">
 					CRITICAL! CRITICAL! CRITICAL<span className="text-teal-400 player2">HIT</span></p>
 
 				<div>

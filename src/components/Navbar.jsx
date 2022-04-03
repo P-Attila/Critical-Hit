@@ -9,13 +9,13 @@ const Navbar = () => {
 	const handleClick = () => setNav(!nav);
 
 	return (
-		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-zinc-900 text-gray-300">
-			<div>
+		<div className="fixed w-full h-[80px] hover:cursor-pointer flex justify-between items-center px-4 bg-zinc-900 text-gray-300 z-50">
+			<a href="/">
 				<p className="text-4xl text-yellow-300">
 					critical
 					<span className="text-teal-400">HIT</span>
 				</p>
-			</div>
+			</a>
 
 			{/* menu */}
 			<ul className="hidden md:flex">
@@ -124,7 +124,7 @@ const Navbar = () => {
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
 						<a
 							className="flex justify-between items-center w-full text-gray-300"
-							href="../downloads/CV-Attila_Polgar.pdf"
+							href="/downloads/CV-Attila_Polgar.pdf"
 							target="_blank"
 						>
 							Resume <BsFillPersonLinesFill size={30} />

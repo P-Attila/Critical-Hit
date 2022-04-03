@@ -2,54 +2,105 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 @layer base {
-    body {
-        @apply font-[Raleway];
-    }
-    li {
-        @apply px-4;
-        @apply cursor-pointer;
-    }
+	body {
+		@apply font-[Raleway];
+	}
+	li {
+		@apply px-4;
+		@apply cursor-pointer;
+	}
 }
 
-.glitch{
-    font-family: 'Rubik Glitch', cursive;
+.glitch {
+	font-family: "Rubik Glitch", cursive;
 }
 
 .player2 {
-    font-family: 'Press Start 2P', cursive;
+	font-family: "Press Start 2P", cursive;
 }
 
 .content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
 }
 
 .content-div:hover {
-    background-image:
-    linear-gradient(
-        to right,
-        #19d2b9 0%,
-        #feff01 100%
-    )!important;
+	background-image: linear-gradient(
+		to right,
+		#19d2b9 0%,
+		#feff01 100%
+	) !important;
 }
 
 .fadeIn {
-    animation: fadeIn linear 3s;
+	animation: fadeIn linear 3s;
 }
 
 @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    100% {
-      opacity: 1;
-    }
-  }
+	100% {
+		opacity: 1;
+	}
+}
+
+.skill-icon {
+    margin: 16px auto 0;
+    position: relative;
+	z-index: 2;
+}
+
+.skill-icon::before {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: inherit;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(16px);
+	z-index: 1;
+}
+
+.github-icon {
+    background: url('../src/assets/github.png') center/contain no-repeat;
+}
+
+.google-icon {
+    background: url('../src/assets/Google.png') center/contain no-repeat;
+}
+
+.tailwind-icon {
+	background: url('../src/assets/tailwind.png') center/contain no-repeat;
+}
+
+.bootstrap-icon {
+	background: url('../src/assets/Bootstrap.png') center/contain no-repeat;
+}
+
+.react-icon {
+	background: url('../src/assets/react.png') center/contain no-repeat;
+}
+
+.javascript-icon {
+	background: url('../src/assets/javascript.png') center/contain no-repeat;
+}
+
+.css-icon {
+	background: url('../src/assets/css.png') center/contain no-repeat;
+}
+
+.html-icon {
+	background: url('../src/assets/html.png') center/contain no-repeat;
+}
