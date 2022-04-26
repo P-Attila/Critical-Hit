@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a69cbb45.css",
-    "main.js": "./static/js/main.f68034bb.js",
+    "main.js": "./static/js/main.f4bdc80d.js",
     "static/media/BuySomeRecords.png": "./static/media/BuySomeRecords.fb953ab07dd65b658b7d.png",
     "static/media/Grappling-circle.png": "./static/media/Grappling-circle.b83ce8d732354f6750dc.png",
     "static/media/Bootstrap.png": "./static/media/Bootstrap.f132cb791703420e69ca.png",
@@ -15,10 +15,10 @@
     "static/media/javascript.png": "./static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "./index.html",
     "main.a69cbb45.css.map": "./static/css/main.a69cbb45.css.map",
-    "main.f68034bb.js.map": "./static/js/main.f68034bb.js.map"
+    "main.f4bdc80d.js.map": "./static/js/main.f4bdc80d.js.map"
   },
   "entrypoints": [
     "static/css/main.a69cbb45.css",
-    "static/js/main.f68034bb.js"
+    "static/js/main.f4bdc80d.js"
   ]
 }
