@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "./static/css/main.a69cbb45.css",
-    "main.js": "./static/js/main.f4bdc80d.js",
+    "main.js": "./static/js/main.ae891f80.js",
     "static/media/BuySomeRecords.png": "./static/media/BuySomeRecords.fb953ab07dd65b658b7d.png",
+    "static/media/Movie-Poster.png": "./static/media/Movie-Poster.bad080b87c3dffac29f5.png",
     "static/media/Grappling-circle.png": "./static/media/Grappling-circle.b83ce8d732354f6750dc.png",
     "static/media/Bootstrap.png": "./static/media/Bootstrap.f132cb791703420e69ca.png",
     "static/media/Google.png": "./static/media/Google.0590aaf0fe36e23dcc8c.png",
@@ -15,10 +16,10 @@
     "static/media/javascript.png": "./static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "./index.html",
     "main.a69cbb45.css.map": "./static/css/main.a69cbb45.css.map",
-    "main.f4bdc80d.js.map": "./static/js/main.f4bdc80d.js.map"
+    "main.ae891f80.js.map": "./static/js/main.ae891f80.js.map"
   },
   "entrypoints": [
     "static/css/main.a69cbb45.css",
-    "static/js/main.f4bdc80d.js"
+    "static/js/main.ae891f80.js"
   ]
 }
