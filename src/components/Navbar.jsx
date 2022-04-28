@@ -10,7 +10,7 @@ const Navbar = () => {
 
 	return (
 		<div className="fixed w-full h-[80px] hover:cursor-pointer flex justify-between items-center px-4 bg-zinc-900 text-gray-300 z-50">
-			<a href="https://p-attila.github.io/critical-hit/build/">
+			<a href="https://p-attila.github.io/Critical-Hit/build/">
 				<p className="text-4xl text-yellow-300">
 					critical
 					<span className="text-teal-400">HIT</span>
