@@ -65,7 +65,7 @@ const Work = () => {
 							</span>
 							<div className="pt-8 text-center">
 								<a
-									href="https://p-attila.github.io/flip_card/build/"
+									href="https://p-attila.github.io/FlipCard-Game/build/"
 									target="_blank"
 									rel="opener noreferrer"
 								>
@@ -74,7 +74,7 @@ const Work = () => {
 									</button>
 								</a>
 								<a
-									href="https://github.com/P-Attila/flip_card"
+									href="https://github.com/P-Attila/FlipCard-Game"
 									target="_blank"
 									rel="opener noreferrer"
 								>
@@ -131,7 +131,7 @@ const Work = () => {
 							</span>
 							<div className="pt-8 text-center">
 								<a
-									href="https://p-attila.github.io/movie/build/"
+									href="https://p-attila.github.io/Movie-Poster/build/"
 									target="_blank"
 									rel="opener noreferrer"
 								>
@@ -140,7 +140,7 @@ const Work = () => {
 									</button>
 								</a>
 								<a
-									href="https://github.com/P-Attila/movie"
+									href="https://github.com/P-Attila/Movie-Poster"
 									target="_blank"
 									rel="opener noreferrer"
 								>
